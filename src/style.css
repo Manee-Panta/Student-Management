@@ -1,0 +1,180 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomeMain {
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+  background: linear-gradient(rgba(58, 0, 205, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src//img/banner1.jpg");
+  height: 92.5vh;
+  width: 100%;
+
+  background-size: cover;
+}
+
+.textLayer {
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  gap: 10px;
+  color: rgb(255, 255, 255);
+}
+.textLayer h1 {
+  font-weight: bold;
+  font-family: cursive;
+  gap: 10%;
+}
+.textLayer h3 {
+  font-weight: 30px;
+  font-family: Arial, sans-serif;
+  margin-top: 36%;
+  margin-left: -30%;
+  color: rgb(68, 219, 209);
+  font-style: italic;
+  font-size: 25px;
+}
+.textLayer p {
+  font-weight: lighter;
+  font-family: monospace;
+  margin-left: 10%;
+}
+
+.sign-up-form {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+label {
+  font-weight: lighter;
+  margin: 15px 0px 15px 0px;
+}
+.loginbtn {
+  margin: 10px 0px 10px 0px;
+  width: 100px;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+.listMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.operation {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.listTable {
+  width: 750px;
+  margin-top: 20px;
+}
+table tr td {
+  border-collapse: collapse;
+  border: 1px solid rgb(173, 169, 169);
+}
+
+.listTable td {
+  padding: 10px;
+  background-color: rgb(212, 210, 207);
+}
+.listTable thead {
+  font-weight: bold;
+}
+.createMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 35%;
+  margin-top: 40px;
+  justify-content: center;
+  /* border: 1px solid red; */
+  background-color: rgb(207, 207, 207);
+  height: 70vh;
+  width: 450px;
+  border-radius: 150px 0 150px 0;
+}
+.createMain h3 {
+  font-weight: bold;
+}
+.createMain input {
+  margin: 20px;
+  width: 60%;
+  border: none;
+  height: 35px;
+}
+.addbtn,
+.updatebtn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 56, 119);
+  width: 80px;
+  padding: 5px;
+  border: none;
+  margin-top: 30px;
+}
+.updateMain {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+
+  height: 60vh;
+  margin-left: 30%;
+  margin-top: 5%;
+  align-items: center;
+  background-color: rgb(207, 207, 207);
+  /* justify-content: center; */
+}
+.updateMain h3 {
+  margin: 30px 0;
+  text-align: center;
+}
+.updateMain input {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 35px;
+  border: none;
+}
+.searchMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  margin-top: 50px;
+}
+.searchMain input {
+  margin: 10px 0;
+  background-color: rgb(208, 208, 208);
+  border: none;
+  height: 35px;
+}
+/* .navbar{
+    color: white !important;
+    border: 1px solid red;
+    background-color: rgb(24, 16, 16);
+}
+.navbar Link{
+    color: white !important;
+    border: 1px solid white;
+} */
+.i{
+margin-right: 5px;
+}
+input{
+  padding-left:5px ;
+}
+.navlist{
+  padding-left:10px ;
+}
